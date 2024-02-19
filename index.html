@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currancy Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Currancy Converter</h2>
+        <form >
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="100" type="text">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>
+                        From
+                        <div class="selectContainer">
+                            <img src="https://flagsapi.com/US/shiny/64.png">
+                            <select name="from">
+                                <option value="INR" >INR</option>
+                                <option value="USD" selected >USD</option>
+                                <option value="EUR" >EUR</option>
+                                <option value="CNY" >CNY</option>
+                            </select>
+                        </div>
+                    </p>
+                </div>
+                <div class="to">
+                    <p>
+                        To
+                        <div class="selectContainer">
+                            <img src="https://flagsapi.com/IN/shiny/64.png">
+                            <select name="from">
+                                <option value="INR" selected>INR</option>
+                                <option value="USD" >USD</option>
+                                <option value="EUR" >EUR</option>
+                                <option value="CNY" >CNY</option>
+                            </select>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="finalmsg">
+                1USD=80INR
+            </div>
+                <button class="formBtn">Get Exchange Reate</button>
+        </form>
+    </div>
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
